@@ -1,0 +1,61 @@
+h1{
+    color: rgb(67, 75, 83);
+}
+
+#round {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+div{
+    background-color: rgba(229, 236, 255, 0.8);
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;
+    padding : 20px 20px;
+    border-radius: 10px;
+
+}
+
+.photo{
+    height: 50px;
+    width: 50px;
+}
+
+.liste-1{
+    list-style: none;
+    text-align: left;
+}
+.liste-2 li{
+    display: inline;
+}
+
+
+
+body{
+    background-image: url(Images/IMG_2818.jpeg);
+    background-size: 1920px 1980px;
+}
+
+@media(max-width:960px) {
+
+    div{
+        width: 700px;
+    }
+
+}
+@media(max-width:720px) {
+
+    div{
+        width: 500px;
+    }
+
+}
+@media(max-width:540px) {
+
+    div{
+        width: 300px;
+    }
+
+}
